@@ -25,7 +25,7 @@ export const products: Product[] = [
     description:
       "A classic dish featuring marinated and grilled paneer cubes in a rich, aromatic tomato-based gravy.",
     price: 45,
-    image: "/public/assets/images/paneer_tikka_masala.png",
+    image: "/assets/images/paneer_tikka_masala.png",
     category: CATEGORIES.PANEER,
     features: [
       "Restaurant-style taste",
@@ -44,7 +44,7 @@ export const products: Product[] = [
     description:
       "Creamy, rich gravy with soft paneer cubes, perfect blend of spices and butter.",
     price: 45,
-    image: "/public/assets/images/paneer_butter_masala.png",
+    image: "/assets/images/paneer_butter_masala.png",
     category: CATEGORIES.PANEER,
     features: ["Creamy texture", "Perfect blend of spices", "Restaurant style"],
     preparationTime: "15 minutes",
@@ -59,7 +59,7 @@ export const products: Product[] = [
     description:
       "Luxurious, creamy tomato-based curry with soft paneer pieces and aromatic spices.",
     price: 45,
-    image: "/public/assets/images/paneer_tikka_masala_jain.png", // Updated image based on your files
+    image: "/assets/images/paneer_tikka_masala_jain.png", // Updated image based on your files
     category: CATEGORIES.PANEER,
     features: ["Rich and creamy", "Authentic taste", "Premium ingredients"],
     preparationTime: "15 minutes",
@@ -73,7 +73,7 @@ export const products: Product[] = [
     },
     description: "Scrambled paneer cooked with tomatoes, onions, and spices.",
     price: 45,
-    image: "/public/assets/images/bharela_bhinda.png", // Updated image
+    image: "/assets/images/bharela_bhinda.png", // Updated image
     category: CATEGORIES.PANEER,
     features: ["Scrambled texture", "Flavorful", "Quick to prepare"],
     preparationTime: "15 minutes",
@@ -87,7 +87,7 @@ export const products: Product[] = [
     },
     description: "Grilled paneer cubes with spices, without onion or garlic.",
     price: 45,
-    image: "/public/assets/images/paneer_tikka_masala_jain.png", // Updated image
+    image: "/assets/images/paneer_tikka_masala_jain.png", // Updated image
     category: CATEGORIES.PANEER,
     features: ["No onion, no garlic", "Grilled perfection", "Spicy and tasty"],
     preparationTime: "15 minutes",
@@ -103,7 +103,7 @@ export const products: Product[] = [
     description:
       "Kidney beans cooked in a thick, spiced curry, a North Indian comfort food.",
     price: 45,
-    image: "/public/assets/images/rajma_masala.png", // Updated image
+    image: "/assets/images/rajma_masala.png", // Updated image
     category: CATEGORIES.VEGETARIAN,
     features: ["Protein-rich", "Authentic Punjabi style", "Perfect with rice"],
     preparationTime: "15 minutes",
@@ -118,7 +118,7 @@ export const products: Product[] = [
     description:
       "Spiced chickpeas curry made with special blend of aromatic spices.",
     price: 45,
-    image: "/public/assets/images/chana_gravy.png", // Updated image
+    image: "/assets/images/chana_gravy.png", // Updated image
     category: CATEGORIES.VEGETARIAN,
     features: [
       "Traditional recipe",
@@ -136,7 +136,7 @@ export const products: Product[] = [
     },
     description: "Baby potatoes cooked in a rich, spicy Kashmiri-style gravy.",
     price: 45,
-    image: "/public/assets/images/kashmiri_dum_aloo.png", // Updated image
+    image: "/assets/images/kashmiri_dum_aloo.png", // Updated image
     category: CATEGORIES.VEGETARIAN,
     features: ["Rich and aromatic", "Vibrant flavors", "Comfort food"],
     preparationTime: "15 minutes",
@@ -151,7 +151,7 @@ export const products: Product[] = [
     description:
       "Mixed vegetables cooked in a spicy, tangy gravy with a blend of spices.",
     price: 45,
-    image: "/public/assets/images/vegetable_kadai_mix.png", // Updated image
+    image: "/assets/images/vegetable_kadai_mix.png", // Updated image
     category: CATEGORIES.VEGETARIAN,
     features: ["Perfect blend of spices", "Rich in vegetables", "Tangy flavor"],
     preparationTime: "15 minutes",
@@ -165,7 +165,7 @@ export const products: Product[] = [
     },
     description: "Fragrant rice mixed with spiced vegetables, a one-pot meal.",
     price: 45,
-    image: "/public/assets/images/veg_biryani.png", // Updated image
+    image: "/assets/images/veg_biryani.png", // Updated image
     category: CATEGORIES.VEGETARIAN,
     features: ["Flavorful", "Basmati rice", "Perfectly spiced"],
     preparationTime: "15 minutes",
@@ -179,7 +179,7 @@ export const products: Product[] = [
     },
     description: "Stuffed okra with a spicy, tangy filling.",
     price: 45,
-    image: "/public/assets/images/bharela_bhinda.png", // Updated image
+    image: "/assets/images/bharela_bhinda.png", // Updated image
     category: CATEGORIES.VEGETARIAN,
     features: ["Stuffed okra", "Spicy and tangy", "Traditional recipe"],
     preparationTime: "15 minutes",
@@ -193,7 +193,7 @@ export const products: Product[] = [
     },
     description: "Stuffed eggplant with aromatic spices and a tangy filling.",
     price: 45,
-    image: "/public/assets/images/bharela_bhinda.png", // Updated image
+    image: "/assets/images/bharela_bhinda.png", // Updated image
     category: CATEGORIES.VEGETARIAN,
     features: ["Stuffed eggplant", "Tangy and flavorful", "Spiced filling"],
     preparationTime: "15 minutes",
@@ -209,7 +209,7 @@ export const products: Product[] = [
     description:
       "Aromatic rice dish with tender chicken pieces and signature biryani spices.",
     price: 45,
-    image: "/public/assets/images/chicken_biryani_mix.png", // Updated image
+    image: "/assets/images/chicken_biryani_mix.png", // Updated image
     category: CATEGORIES.NON_VEGETARIAN,
     features: [
       "Authentic Hyderabadi style",
@@ -227,7 +227,7 @@ export const products: Product[] = [
     },
     description: "Tender chicken pieces cooked in a flavorful gravy.",
     price: 45,
-    image: "/public/assets/images/chicken_gravy.png", // Updated image
+    image: "/assets/images/chicken_gravy.png", // Updated image
     category: CATEGORIES.NON_VEGETARIAN,
     features: [
       "Tender chicken",
@@ -246,7 +246,7 @@ export const products: Product[] = [
     description:
       "Tender chicken in a rich, creamy tomato-based curry with butter and cream.",
     price: 45,
-    image: "/public/assets/images/butter_chicken_mix.png", // Updated image
+    image: "/assets/images/butter_chicken_mix.png", // Updated image
     category: CATEGORIES.NON_VEGETARIAN,
     features: ["Creamy texture", "Tender chicken pieces", "Mild and rich"],
     preparationTime: "15 minutes",
@@ -260,7 +260,7 @@ export const products: Product[] = [
     },
     description: "Tender mutton pieces cooked in a rich and spicy gravy.",
     price: 45,
-    image: "/public/assets/images/mutton_gravy_mix.png", // Updated image
+    image: "/assets/images/mutton_gravy_mix.png", // Updated image
     category: CATEGORIES.NON_VEGETARIAN,
     features: ["Tender mutton", "Rich and spicy", "Traditional recipe"],
     preparationTime: "15 minutes",
