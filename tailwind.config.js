@@ -25,5 +25,5 @@ export default {
       },
     },
   },
-  plugins: [require("@tailwindcss/line-clamp")],
+  plugins: [], // Removed line-clamp plugin since it's now included by default
 };
